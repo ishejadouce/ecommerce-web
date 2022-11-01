@@ -11,8 +11,8 @@ const Nav = () => {
           <li className='bg-none cursor-pointer'>Categories</li>
           <li className='bg-none cursor-pointer'>Shopping List</li>
         </ul>
-        <button className=' myBtn btn-add bg-cyan-500 text-white p-4 rounded-md mt-9 cursor-pointer mb-5 text-1xl ml-80 bg-none float-right'>Add Product</button>
-      </div>
+        <button className=' myBtn btn-add text-white p-4 rounded-md mt-9 cursor-pointer mb-5 text-1xl ml-80 bg-none float-right bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 focus:outline-none focus:ring focus:ring-cyan-400'>Add Product</button>
+      </div>0
     </>
   )
 }
